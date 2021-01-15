@@ -1,0 +1,20 @@
+{
+    "name": "hello/mock-woocommerce",
+    "authors": [
+        {
+            "name": "jayontasarkar",
+            "email": "jayontasarkar025@gmail.com"
+        }
+    ],
+    "require": {
+        "automattic/woocommerce": "^3.0",
+        "fzaninotto/faker": "^1.9",
+        "vlucas/phpdotenv": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {"Generators\\": "Generators/"}
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.2"
+    }
+}
