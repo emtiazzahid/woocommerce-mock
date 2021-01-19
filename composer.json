@@ -1,9 +1,9 @@
 {
-    "name": "hello/mock-woocommerce",
+    "name": "emtiazzahid/mock-woocommerce",
     "authors": [
         {
-            "name": "jayontasarkar",
-            "email": "jayontasarkar025@gmail.com"
+            "name": "emtiazzahid",
+            "email": "emtiazzahid@gmail.com"
         }
     ],
     "require": {

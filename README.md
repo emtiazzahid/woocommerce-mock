@@ -1,6 +1,6 @@
 
 
-####Increase product variation limit in woocommerce
+Increase product variation limit in woocommerce
 
 ```
 function wpse_rest_batch_items_limit( $limit ) {

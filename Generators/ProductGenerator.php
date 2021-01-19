@@ -37,11 +37,21 @@ class ProductGenerator
                     'type' => 'simple',
                     'regular_price' => "{$price}",
                     'description' => $faker->sentence(40),
-                    'short_description' => $faker->sentence(10)
+                    'short_description' => $faker->sentence(10),
+                    'images' => [
+                        ['src' => 'https://picsum.photos/437/437.jpg'],
+                        ['src' => 'https://picsum.photos/437/437.jpg'],
+                        ['src' => 'https://picsum.photos/437/437.jpg'],
+                        ['src' => 'https://picsum.photos/437/437.jpg'],
+                        ['src' => 'https://picsum.photos/437/437.jpg']
+                    ]
                 ];
             }
-            $this->woocommerce->post('products/batch', $data);
 
+            $result = $this->woocommerce->post('products/batch', $data);
+
+            echo '<pre>';
+            print "Response: " . var_dump($result) . "\r\n";
             print "Imported product. Batch number: " . $i . "\r\n";
         }
 

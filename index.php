@@ -16,6 +16,6 @@ $productGenerator = new ProductGenerator();
 $customerGenerator = new CustomerGenerator();
 
 
-$orderGenerator->generate(10);
-$productGenerator->generate(10);
-$customerGenerator->generate(10);
+$orderGenerator->generate(1,1);
+$productGenerator->generate(1,1);
+$customerGenerator->generate(1,1);
