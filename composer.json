@@ -9,6 +9,7 @@
     "require": {
         "automattic/woocommerce": "^3.0",
         "fzaninotto/faker": "^1.9",
+        "guzzlehttp/guzzle": "^7.0",
         "vlucas/phpdotenv": "^5.2"
     },
     "autoload": {
